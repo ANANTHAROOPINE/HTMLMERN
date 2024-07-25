@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DTMView</title>
+    <style>
+        .cont{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .box{
+            width: 23%;
+            height: 100px;
+        }
+        @media screen and (max-width:1000px) {
+            .box{
+                width: 40%;
+            }
+        }
+        @media screen and (max-width:500px) {
+            .box{
+                width: 98%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1><center>Destop,Tab,Mobile View</center></h1>
+    <div class="cont">
+        <div class="box" style="background-color:cadetblue"></div>
+        <div class="box" style="background-color: chocolate;"></div>
+        <div class="box" style="background-color: coral;"></div>
+        <div class="box" style="background-color: darkgray;"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doraemon</title>
+    <style>
+        #one {
+            border: 3px solid black;
+            display: flex;
+            flex-direction: row; 
+            justify-content: space-between;
+            margin: 10px;
+        }
+
+        img {
+            height: 250px;
+            width: 500px;
+        }
+
+        #p {
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            margin-left: 20px; 
+        }
+
+        #two {
+            font-size: 21px;
+        }
+
+        @media (max-width: 790px) {
+            #one {
+                flex-direction: column; 
+                align-items: center; 
+                text-align: center; 
+            }
+
+            img {
+                width: 100%; 
+                height: auto;
+            }
+
+            #p {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <center><h3>DORAEMON</h3></center>
+    <aside id="one">
+        <img src="https://ih1.redbubble.net/image.5237458111.4222/flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt="Doraemon">
+        <div id="p">
+            <p id="two">"Doraemon" is a cherished Japanese anime and manga series created by Fujiko F. Fujio, following the adventures of a robotic cat named Doraemon who travels back from the 22nd century to assist a young boy named Nobita Nobi. Doraemon, with his futuristic gadgets and kind heart, helps Nobita navigate various challenges and misadventures, often involving his friends Shizuka Minamoto, a kind and intelligent girl who is Nobita's love interest; Takeshi Gouda (Gian), a strong but sometimes aggressive friend with a passion for music; and Suneo Honekawa, a boastful and often unkind classmate. Each character has a unique personality and plays a crucial role in the story, contributing to its rich, dynamic interactions. The series also features Doraemon's gadgets, like the "Anywhere Door" and "Time Machine," which are central to the plots and add a fantastical element to the everyday situations. The series combines humor with imaginative scenarios, teaching valuable lessons about friendship, responsibility, and problem-solving. Since its debut in 1969, "Doraemon" has become a cultural icon in Japan and has garnered a global following through its numerous adaptations, including anime episodes, films, and merchandise, solidifying its place as a beloved staple in children’s entertainment.</p>
+        </div>
+    </aside>
+</body>
+</html>

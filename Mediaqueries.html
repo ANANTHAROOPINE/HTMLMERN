@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mediaqueries</title>
+    <style>
+        h2{
+            color: crimson;
+        }
+        @media screen and (max-width:900px) {
+            h2{
+                color:darkgreen;
+            }
+        }
+        @media screen and (max-width:500px) {
+            h2{
+                color:brown;
+            }
+        }
+        h3{
+            color:yellow;
+        }
+        @media screen and (min-width:700px) {
+            h3{
+                color: blue;
+            }
+        }
+        @media screen and (min-width:900px) {
+            h3{
+                color:red;
+            }
+        }
+        #box {
+            background-color:blueviolet;
+            width: 600px;
+            height: 100px;
+        }
+        @media screen and (max-width:900px){
+            #box{
+                background-color: red;
+                width: 300px;
+                height: 100px;
+            }
+        }
+        @media screen and (max-width:500px){
+            #box{
+                background-color: blue;
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <center><h1>Welcome to media queries session today!!!</h1></center>
+        <h2>This is about the max width query</h2>
+        <h3>This is about min-width query</h3>
+        <p>This is about max width query in box model</p>
+        <div id="box"></div>
+</body>
+</html>
